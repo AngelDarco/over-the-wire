@@ -2,7 +2,7 @@
   "applicationId": "js.neutralino.zero",
   "version": "1.0.0",
   "defaultMode": "window",
-  "documentRoot": "/myapp-react/build/",
+  "documentRoot": "/carbbdd/build/",
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
@@ -28,7 +28,7 @@
     "clientVersion": "3.1.0",
       "frontendLibrary": {
           "patchFile": "/litepy-react/public/index.html",
-          "devUrl": "http://localhost:3000"
+          "devUrl": "http://localhost:3004"
       }
     }
   }
