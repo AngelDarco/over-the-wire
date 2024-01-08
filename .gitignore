@@ -13,3 +13,7 @@ neutralino.js
 *.log
 
 node_modules
+
+# Git
+.git
+
