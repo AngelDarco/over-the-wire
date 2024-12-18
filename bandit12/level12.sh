@@ -16,6 +16,10 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 # JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 # Code: 
+# download the compresed file
+# scp -P 2220 bandit12@bandit.labs.overthewire.org:~/data.txt .
+
+
 # bash decompresor.sh
  
 
