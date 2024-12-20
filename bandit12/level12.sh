@@ -19,9 +19,11 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 # download the compresed file
 # scp -P 2220 bandit12@bandit.labs.overthewire.org:~/data.txt .
 
+# convert data.txt to data.gzip
+# the file should be in the same directory and named data.gzip to work properly
+# xxd -r data.txt data.gzip
 
 # bash decompresor.sh
- 
 
 # Flag:
 # wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
