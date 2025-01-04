@@ -17,7 +17,8 @@ ssh bandit20@bandit.labs.overthewire.org -p 2220
 # 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 # Code:
-#
+# echo 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -lp 4444 &
+# ./suconnect 4444
 
 # Flag:
-#
+# EeoULMCra2q0dSkYj561DX7s1CpBuOBt
