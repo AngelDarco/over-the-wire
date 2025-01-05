@@ -17,7 +17,11 @@ ssh bandit24@bandit.labs.overthewire.org -p 2220
 # gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 # Code:
-#
+# run the script
+# bash ./script.sh
+
+# read the possible passwords and hide the wrong ones
+# cat dictionary.txt | nc localhost 30002 | grep -v -E "Wrong*|I am*"
 
 # Flag:
-#
+# iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
