@@ -11,14 +11,17 @@
 
 #
 # SSH
-ssh bandit20@bandit.labs.overthewire.org -p 2220
+ssh bandit22@bandit.labs.overthewire.org -p 2220
 
 # Password:
-# 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+# tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 # Code:
-# echo 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -lp 4444 &
-# ./suconnect 4444
+# ls /etc/cron.d/
+# cat /etc/cron.d/cronjob_bandit23
+# myname=bandit23
+# echo I am user $myname | md5sum | cut -d ' ' -f 1
+# cat /tmp/(hash-result)
 
 # Flag:
-# EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+# 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga

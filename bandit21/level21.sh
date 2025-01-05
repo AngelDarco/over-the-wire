@@ -11,14 +11,14 @@
 
 #
 # SSH
-ssh bandit20@bandit.labs.overthewire.org -p 2220
+ssh bandit21@bandit.labs.overthewire.org -p 2220
 
 # Password:
-# 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+# EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 # Code:
-# echo 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -lp 4444 &
-# ./suconnect 4444
+# cat /usr/bin/cronjob_bandit22.sh
+# cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
 # Flag:
-# EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+# tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q

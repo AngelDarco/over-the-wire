@@ -11,14 +11,17 @@
 
 #
 # SSH
-ssh bandit20@bandit.labs.overthewire.org -p 2220
+ssh bandit24@bandit.labs.overthewire.org -p 2220
 
 # Password:
-# 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+# gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 # Code:
-# echo 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -lp 4444 &
-# ./suconnect 4444
+# run the script
+# bash ./script.sh
+
+# read the possible passwords and hide the wrong ones
+# cat dictionary.txt | nc localhost 30002 | grep -v -E "Wrong*|I am*"
 
 # Flag:
-# EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+# iCi86ttT4KSNe1armKiwbQNmB3YJP3q4

